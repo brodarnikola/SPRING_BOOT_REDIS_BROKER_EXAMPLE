@@ -6,6 +6,8 @@ If everything is good you should see this messages inside your Spring boot logs.
 " Sending message...
 Received <Hello from Redis!> " 
 
+## Learned from this tutorial link -> https://spring.io/guides/gs/messaging-redis
+
 ## You will build an application that uses StringRedisTemplate to publish a string message and has a POJO subscribe for the message by using MessageListenerAdapter.
 
 It may sound strange to be using Spring Data Redis as the means to publish messages, but, as you will discover, Redis provides not only a NoSQL data store but a messaging system as well.
